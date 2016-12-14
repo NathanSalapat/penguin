@@ -1,0 +1,6 @@
+
+Sound:
+
+penguin_chirrup.ogg
+	(C) 2016 Tai "DuCake" Kedzierski
+	CC-BY-SA 4.0
