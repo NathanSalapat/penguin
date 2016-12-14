@@ -14,6 +14,7 @@ mobs:register_mob("penguin:penguin", {
 	drawtype = "front",
 	textures = {
 		{"mobs_penguin.png"},
+		{"mobs_penguin_tux.png"},
 	},
 	blood_texture = "mobs_blood.png",
 	visual_size = {x=8,y=8},
