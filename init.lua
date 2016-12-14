@@ -6,7 +6,7 @@ mobs:register_mob("penguin:penguin", {
 	attack_type = "dogfight",
 	damage = 2,
 	hp_min = 5, hp_max = 15, armor = 200,
-	collisionbox = {-0.25, -0.5, -0.25, 0.25, 0.3, 0.25},
+	collisionbox = {-0.25, -0.4, -0.25, 0.25, 0.3, 0.25},
 	visual = "mesh",
 	mesh = "mobs_penguin.b3d",
 	drawtype = "front",
@@ -23,7 +23,9 @@ mobs:register_mob("penguin:penguin", {
 	walk_velocity = 1,
 	run_velocity = 2,
 	jump = true,
+   jump_height = 1,
 	stepheight = 1.1,
+   floats = 1,
 	-- drops raw meat when dead
 	drops = {
 		{name = "mobs:meat_raw",
