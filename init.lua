@@ -5,27 +5,30 @@ mobs:register_mob("penguin:penguin", {
 	passive = false,
 	attack_type = "dogfight",
 	damage = 2,
-	hp_min = 5, hp_max = 15, armor = 200,
+	hp_min = 5,
+	hp_max = 15,
+	armor = 200,
 	collisionbox = {-0.25, -0.4, -0.25, 0.25, 0.3, 0.25},
 	visual = "mesh",
 	mesh = "mobs_penguin.b3d",
 	drawtype = "front",
 	textures = {
 		{"mobs_penguin.png"},
+		{"mobs_penguin_tux.png"},
 	},
 	blood_texture = "mobs_blood.png",
 	visual_size = {x=8,y=8},
 	makes_footstep_sound = true,
---	sounds = {
---		random = "mobs_sheep",
---	},
+	sounds = {
+		random = "penguin_chirrup",
+	},
 	-- speed and jump
 	walk_velocity = 1,
 	run_velocity = 2,
 	jump = true,
-   jump_height = 1,
+	jump_height = 1,
 	stepheight = 1.1,
-   floats = 1,
+	floats = 1,
 	-- drops raw meat when dead
 	drops = {
 		{name = "mobs:meat_raw",
