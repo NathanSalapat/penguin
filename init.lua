@@ -4,6 +4,7 @@ mobs:register_mob("penguin:penguin", {
 	type = "animal",
 	passive = false,
 	attack_type = "dogfight",
+   reach = 1,
 	damage = 2,
 	hp_min = 5,
 	hp_max = 15,
@@ -40,7 +41,7 @@ mobs:register_mob("penguin:penguin", {
 	light_damage = 0,
 	-- model animation
 	animation = {
-		speed_normal = 15,		speed_run = 15,
+		speed_normal = 15,	speed_run = 15,
 		stand_start = 0,		stand_end = 60, -- head down/up
 		walk_start = 150,		walk_end = 170, -- walk
 		run_start = 150,		run_end = 170, -- walk
